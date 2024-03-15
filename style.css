@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+    font-family: 'Merriweather';
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+        background-color: #f1ecec;
+        box-shadow: 8px 8px rgb(151, 150, 150);
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        height: 440px;
+        width: 380px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 20px;
+}
+
+.cardHeader {
+    margin-bottom: 500px;
+}
+
+.search {
+    border: 1px;
+}
